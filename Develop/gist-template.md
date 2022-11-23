@@ -1,12 +1,11 @@
 # JimsRegexTutorial
 
-Introductory paragraph (replace this with your text)
 
 ## Summary
 
-A regex (or, regular expression) is a sequence of characters that defines a search pattern that helps users match, locate, or manage text. Common use cases include matching strings of text, finding and replacing operations, and input validation. For example, with regex you can easily check a user's input for common misspellings of a particular word. The regex pattern consists of one or more character literals and/or "meta" characters, which are stand-ins to represent possible text combinations.
+A RegEx (or, regular expression) is a sequence of characters that defines a search pattern that helps users match, locate, or manage text. Common use cases include matching strings of text, finding and replacing operations, and input validation. For example, with regex you can easily check a user's input for common misspellings of a particular word. The regex pattern consists of one or more character literals and/or "meta" characters, which are stand-ins to represent possible text combinations.
 
-The RegEx I will be breaking down searches for an email address pattern within a string. Please review the following code snippet:
+The RegEx we will be breaking down searches for an email address pattern within a string. Please review the following code snippet:
 
 ```
 
@@ -30,7 +29,7 @@ The RegEx I will be breaking down searches for an email address pattern within a
 
 ## Regex Components
 
-The RegEx we are dissecting today has three elements that we will talk about
+The RegEx we are breaking down today has three elements that we will talk about
 
 Complete Regex for Reference: ```/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/```
 
@@ -105,7 +104,7 @@ In our example, we use two anchors. One at the beginning, and one at the end; to
 
 * Example: ```([a-z0-9_\.-]+)``` where the () group together the ```[a-z0-9_\.-]``` bracket expression with the ```+``` quantifier.
 
-* This regex matches any letter or number a-z or 0 to 9, accepts underscores, periods and dashes. Then the quantifier matches one or more of the previous tokens.
+* This RegEx matches any letter or number a-z or 0 to 9, accepts underscores, periods and dashes. Then the quantifier matches one or more of the previous tokens.
 
   
 
@@ -128,4 +127,4 @@ Bracket expressions are the syntax theory on combining character classes. Multip
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+If you have any questions, please reach out to me at [GitHub](https://github.com/Dhabi966)
